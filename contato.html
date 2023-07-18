@@ -9,9 +9,22 @@
     </head>
     <body>
         <form id="contact-form">
-            <input name="Nome" />
-            <input name="e-mail" />
-            <textarea name="mensagem">Digite sua mensagem aqui!</textarea>
+            <h2>Entre em Contato</h2>
+            <div class="input-group">
+                <label for="Nome">Nome:</label>
+                <input name="Nome" id="Nome" type="text" required/>
+            </div>
+
+            <div class="input-group">
+                <label for="e-mail">E-mail:</label>
+                <input name="e-mail" id="e-mail"type="e-mail" placeholder="Digite seu e-mail" required />
+            </div>
+
+            <div class="input-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" type="text" placeholder="Digite sua mensagem aqui!"></textarea>
+            </div>
+            
             <button>Enviar</button>
         </form>  
         
